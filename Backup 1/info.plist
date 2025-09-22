@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<string>YES</string>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>gallerygurustorage.great-site.net</key>
+			<string>gallerygurustorage.great-site.net</string>
+			<key>gallerygurustorage.great-site.net/upload.php</key>
+			<string>gallerygurustorage.great-site.net/upload.php</string>
+			<key>http://gallerygurustorage.great-site.net</key>
+			<string>http://gallerygurustorage.great-site.net</string>
+			<key>http://gallerygurustorage.great-site.net/upload.php</key>
+			<string>http://gallerygurustorage.great-site.net/upload.php</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
